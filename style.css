@@ -34,3 +34,6 @@ body{
 .color-white{
   color:white
 }
+.click-disabilitato{
+  pointer-events: none;
+}

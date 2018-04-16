@@ -9,12 +9,14 @@ $(function() {
         var numCasuale = parseInt(data.response)
         if (numCasuale <= 5) {
           cella.addClass('yellow')
+          cella.addClass('click-disabilitato')
           cella.text(numCasuale)
 
         }
         else {
           cella.addClass('green')
           cella.addClass('color-white')
+          cella.addClass('click-disabilitato')
           cella.text(numCasuale)
 
         }
