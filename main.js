@@ -9,15 +9,14 @@ $(function() {
         var numCasuale = parseInt(data.response)
         if (numCasuale <= 5) {
           cella.addClass('yellow')
+          cella.text(numCasuale)
 
         }
         else {
           cella.addClass('green')
+          cella.text(numCasuale)
         }
       }
     });
   })
-
-
-
 })
