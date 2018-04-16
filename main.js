@@ -14,7 +14,9 @@ $(function() {
         }
         else {
           cella.addClass('green')
+          cella.addClass('color-white')
           cella.text(numCasuale)
+
         }
       }
     });
